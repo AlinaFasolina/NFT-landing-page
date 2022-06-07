@@ -1,0 +1,41 @@
+.release-plan__wrapper {
+    max-width: 1270px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.release-plan__title {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin-bottom: 53px;
+    text-align: center;
+}
+
+.release-plan__blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+@media (max-width: 1270px) { 
+    .release-plan__blocks {
+        align-items: stretch;
+    }
+
+    .release-plan__title {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 768px) { 
+    .release-plan__title {
+        font-size: 30px;
+    }
+}
+

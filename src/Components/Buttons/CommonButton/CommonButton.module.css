@@ -1,0 +1,34 @@
+.common-btn {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 20px 50px;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.4s ease;
+    outline: none;
+}
+
+.common-btn:hover, 
+.common-btn:focus {
+    color: #CC23E4;
+    border: 2px solid #CC23E4;
+}
+
+@media (max-width: 1200px) { 
+    .common-btn {
+        font-size: 16px;
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width: 992px) { 
+    .common-btn {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+}

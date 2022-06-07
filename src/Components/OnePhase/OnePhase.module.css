@@ -1,0 +1,28 @@
+.one-phase-wrapper {
+    max-width: 670px;
+}
+
+.one-phase-title {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #fff;
+    margin-bottom: 65px;
+}
+
+.one-phase-info {
+    margin-bottom: 90px;
+}
+
+@media (max-width: 1200px) {
+    .one-phase-title {
+        font-size: 35px;
+        line-height: 46px;
+        margin-bottom: 40px;
+    }
+
+    .one-phase-info {
+        margin-bottom: 50px;
+    }
+}

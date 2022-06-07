@@ -1,0 +1,27 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.main {
+  background: #232524;
+  padding: 60px 0 200px;
+  min-height: 100vh;
+}
+
+.bear__img {
+  border: 10px solid #fff;
+  border-radius: 40px;
+  padding: 55px 60px 29px 60px;
+}
+
+@media (max-width: 992px) { 
+  .main {
+    padding: 60px 0 60px;
+  }
+}
+
+@media (max-width: 768px) { 
+  .main {
+    padding: 20px 0 60px;
+  }
+}

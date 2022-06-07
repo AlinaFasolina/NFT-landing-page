@@ -1,0 +1,27 @@
+.gradient-btn {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 20px 60px;
+    color: #fff;
+    background: linear-gradient(85.63deg, #F827DE -9.39%, #2B14F9 114.93%);
+    cursor: pointer;
+    transition: 0.4s ease;
+    border: none;
+    outline: none;
+    border: 1px solid transparent;
+
+}
+
+.gradient-btn:hover {
+    border: 1px solid #fff;
+}
+
+@media (max-width: 768px) { 
+    .gradient-btn {
+        display: block;
+        margin: 0 auto 30px;
+    }
+}
+

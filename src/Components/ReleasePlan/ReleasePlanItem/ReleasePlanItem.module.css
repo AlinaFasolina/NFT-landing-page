@@ -1,0 +1,39 @@
+.release-plan-item {
+    display: flex;
+    align-items: center;
+}
+
+.release-plan-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.release-plan-item__number {
+    min-width: 48px;
+    min-height: 48px;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135.83deg, rgba(216, 227, 255, 0.2) 11.5%, rgba(255, 245, 238, 0.102) 100%, rgba(221, 231, 255, 0) 100%);
+    backdrop-filter: blur(4px);
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    margin-right: 25px;
+}
+
+.release-plan-item__text {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    line-height: 150%;
+}
+
+@media (max-width: 1270px) { 
+    .release-plan-item__text {
+        font-size: 18px;
+    }
+ }
