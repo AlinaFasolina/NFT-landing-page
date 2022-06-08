@@ -11,6 +11,12 @@
     margin-top: 35px;
 }
 
+@media (max-width: 992px) {
+    .second-phase-left {
+        margin-top: 0;
+    }
+}
+
 @media (max-width: 768px) {
     .second-phase-wrapper{
         flex-direction: column;

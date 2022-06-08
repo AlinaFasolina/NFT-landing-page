@@ -1,0 +1,149 @@
+.minting {
+    border-radius: 40px;
+    border: 10px solid #FFFFFF;
+    padding: 65px 16px 16px;
+    width: 470px;
+}
+
+.minting-counter {
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    margin-bottom: 15px;
+}
+
+.minting-counter__number {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    width: 30px;
+}
+
+.minting-counter__handler {
+    color: #D725E3;
+    font-family: 'Exo';
+    font-weight: 700;
+    font-size: 50px;
+    user-select: none;
+    cursor: pointer;
+    padding: 0 18px;
+}
+
+.minting-max {
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.minting-title {
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.minting-purple {
+    color: #D725E3;
+}
+
+.minting-info {
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    padding: 30px 25px;
+    margin-bottom: 35px;
+}
+
+.minting-info__item {
+    color: #fff;
+    font-weight: 400;
+}
+
+.minting-info__item:first-child {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #F827DE;
+}
+
+.minting-info__item:nth-child(2) {
+    padding-top: 12px;
+}
+
+.minting-info__item-top {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.minting-info__item-bottom {
+    font-size: 16px;
+}
+
+@media (max-width: 1270px) {
+    .minting-title {
+        margin-bottom: 45px;
+        font-size: 26px;
+    }
+
+    .minting-counter__number {
+        font-size: 30px;
+    }
+
+    .minting-counter__handler {
+        font-size: 40px;
+    }
+
+    .minting-max {
+        font-size: 22px;
+    }
+
+    .minting-info__item-top {
+        font-size: 22px;
+    }
+
+    .minting {
+        padding: 45px 16px 16px;
+        width: 400px;
+    }
+
+    .minting-counter {
+        height: 55px;
+    }
+
+    .minting-info {
+        padding: 25px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .minting {
+        margin: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .minting {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    .minting-title {
+        font-size: 22px;
+        margin-bottom: 35px;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    
+    .minting-title p {
+        margin-bottom: 10px;
+    }
+}

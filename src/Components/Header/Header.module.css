@@ -18,6 +18,11 @@
     margin-right: 54px;
 }
 
+.header-right {
+    position: relative;
+    bottom: 12px;
+}
+
 .navigation-mob {
     display: none;
 }
@@ -41,6 +46,10 @@
 
     .navigation-desktop {
         display: none;
+    }
+
+    .header-right {
+        position: static;
     }
 
     .navigation-mob {

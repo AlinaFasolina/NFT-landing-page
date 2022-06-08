@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import ScrollToButton from "../ScrollToButton/ScrollToButton";
+
 import classes from "./Navigation.module.css";
 
 const Navigation = () => {
@@ -9,13 +11,13 @@ const Navigation = () => {
         <NavLink className={classes.active} to="#">Home</NavLink>
       </li>
       <li>
-        <NavLink to="#">Roadmap</NavLink>
+        <ScrollToButton toId="release">Release Plan</ScrollToButton>
       </li>
       <li>
-        <NavLink to="#">Whitelist</NavLink>
+        <a target="_blank" rel="noreferrer" href="https://sweepwidget.com/view/58332-zxe3vskq">Whitelist</a>
       </li>
       <li>
-        <NavLink to="#">Twitter</NavLink>
+      <a target="_blank" rel="noreferrer" href="https://twitter.com/tbacnft">Twitter</a>
       </li>
     </ul>
   );

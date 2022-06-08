@@ -5,7 +5,7 @@ import {releasePlanList} from "../../Helpers/consts";
 
 const ReleasePlan = () => {
   return (
-    <div className={classes["release-plan__wrapper"]}>
+    <div id="release" className={classes["release-plan__wrapper"]}>
       <h2 className={classes["release-plan__title"]}>
         Teddy Bear Ape Club Release Plan
       </h2>

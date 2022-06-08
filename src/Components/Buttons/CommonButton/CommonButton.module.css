@@ -32,3 +32,10 @@
         padding: 15px 20px;
     }
 }
+
+@media (max-width: 768px) {
+    .common-btn {
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+}

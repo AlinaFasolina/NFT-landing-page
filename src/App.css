@@ -9,17 +9,7 @@ body {
   position: relative;
 }
 
-.main:after {
-  position: absolute;
-  width: 496.18px;
-  height: 511.77px;
-  left: -9px;
-  top: 395.16px;
-  content: "";
-  background: rgba(202, 34, 227, 0.22);
-  filter: blur(450px);
-  transform: rotate(-0.25deg);
-}
+
 
 .bear__img {
   border: 10px solid #fff;
@@ -58,3 +48,11 @@ body {
     margin: auto;
   }
 }
+
+@media (max-width: 450px) {
+  .bear__img  {
+    max-width: 100%;
+  }
+}
+
+

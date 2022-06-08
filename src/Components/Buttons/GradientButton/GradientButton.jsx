@@ -1,9 +1,9 @@
 import React from "react";
 import classes from "./GradientButton.module.css";
 
-const GradientButton = ({text}) => {
+const GradientButton = ({text, lg}) => {
   return (
-    <button className={classes["gradient-btn"]}>
+    <button className={lg ? classes["gradient-btn"] + " " + classes["lg"] : classes["gradient-btn"]}>
       {text}
     </button>
   );

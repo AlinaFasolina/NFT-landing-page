@@ -15,7 +15,7 @@ const Header = ({buttonText}) => {
   return (
     <div className={classes["header-wrapper"]}>
       <div className={isHamburgerOpened ? classes["navigation-mob"] :classes["navigation-mob"] + " " + classes["navigation-mob__hidden"]}>
-        <Navigation />
+        <Navigation/>
       </div>
       <div className={classes["header-left"]}>
         <Hamburger isHamburgerOpened={isHamburgerOpened} toggleHamburger={toggleHamburger} />

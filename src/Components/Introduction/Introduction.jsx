@@ -8,9 +8,9 @@ const Introduction = () => {
     <div className={classes["introduction-wrapper"]}>
       <div className={classes["introduction__left"]}>
         <h1 className={classes["introduction__title"]}>
-          <p>Discover Addorable</p>
-          <p>Cute And Cuddly</p>
-          <p>Teddy Bear Ape NFT’s</p>
+          {/* <p>Discover Addorable</p>
+          <p>Cute And Cuddly</p> */}
+          <p>Teddy Bear Ape Club - 10,000 Teddy NFT Collection</p>
         </h1>
         <p className={classes["introduction__descrip"]}>
           Teddy Bear Ape Club (TBAC) is a collection of 10,000 Unique NFT’s with
@@ -19,7 +19,7 @@ const Introduction = () => {
           feeling of belonging to something much bigger than just an average NFT
           community!
         </p>
-        <GradientButton text="Whitelist"/>
+        <GradientButton lg text="Whitelist"/>
       </div>
       <div className={classes["introduction__right"]}>
        <img className="bear__img" alt="bear" src={bear}/>

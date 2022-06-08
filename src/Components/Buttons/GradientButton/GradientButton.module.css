@@ -3,7 +3,7 @@
     font-weight: 700;
     font-size: 18px;
     border-radius: 8px;
-    padding: 20px 60px;
+    padding: 20px 40px;
     color: #fff;
     background: linear-gradient(85.63deg, #F827DE -9.39%, #2B14F9 114.93%);
     cursor: pointer;
@@ -11,17 +11,21 @@
     border: none;
     outline: none;
     border: 1px solid transparent;
+}
 
+.gradient-btn.lg {
+    padding: 20px 60px;
 }
 
 .gradient-btn:hover {
     border: 1px solid #fff;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .gradient-btn {
         display: block;
         margin: 0 auto 30px;
+        font-size: 16px;
+        padding: 20px 40px;
     }
 }
-
