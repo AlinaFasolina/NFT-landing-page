@@ -6,22 +6,55 @@ body {
   background: #232524;
   padding: 60px 0 200px;
   min-height: 100vh;
+  position: relative;
+}
+
+.main:after {
+  position: absolute;
+  width: 496.18px;
+  height: 511.77px;
+  left: -9px;
+  top: 395.16px;
+  content: "";
+  background: rgba(202, 34, 227, 0.22);
+  filter: blur(450px);
+  transform: rotate(-0.25deg);
 }
 
 .bear__img {
   border: 10px solid #fff;
   border-radius: 40px;
-  padding: 55px 60px 29px 60px;
+  width: 470px;
+  height: 624px;
+  object-fit: cover;
 }
 
-@media (max-width: 992px) { 
-  .main {
-    padding: 60px 0 60px;
+
+@media (max-width: 1270px) {
+  .bear__img  {
+    width: 360px;
+    height: 450px;
   }
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 992px) {
+  .main {
+    padding: 60px 0 60px;
+  }
+
+  .bear__img  {
+    width: 320px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
   .main {
     padding: 20px 0 60px;
+  }
+
+  .bear__img  {
+    display: block;
+    margin: auto;
   }
 }

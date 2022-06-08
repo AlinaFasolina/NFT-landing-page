@@ -1,13 +1,13 @@
 import React from "react";
-import HomePageLayout from "../../Components/Layouts/HomePageLayout/HomePageLayout";
+import Layout from "../../Components/Layout/Layout";
 import OnePhase from "../../Components/OnePhase/OnePhase";
 import { firstPhaseInfoList } from "../../Helpers/consts";
 import classes from "./FirstPhase.module.css";
-import bear from "../../Assets/Images/teddy-bear.png";
+import bear from "../../Assets/Images/teddy-bear.gif";
 
 const FirstPhase = () => {
   return (
-    <HomePageLayout buttonText="MINT YOUR TBAC NFT NOW">
+    <Layout buttonText="MINT YOUR TBAC NFT NOW">
       <div className={classes["first-phase-wrapper"]}>
         <div className={classes["first-phase-left"]}>
           <OnePhase
@@ -16,10 +16,10 @@ const FirstPhase = () => {
           />
         </div>
         <div>
-          <img className={"bear__img" + " " + classes['first-phase-img']} alt="bear" src={bear} />
+          <img className="bear__img" alt="bear" src={bear} />
         </div>
       </div>
-    </HomePageLayout>
+    </Layout>
   );
 };
 

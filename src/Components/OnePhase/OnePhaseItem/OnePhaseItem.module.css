@@ -1,4 +1,4 @@
-.one-phase-item{
+.one-phase-item {
     display: flex;
     align-items: center;
 }
@@ -32,8 +32,14 @@
     line-height: 39px;
 }
 
-@media (max-width: 1270px) { 
+@media (max-width: 1270px) {
     .one-phase-item__text {
         font-size: 18px;
     }
- }
+}
+
+@media (max-width: 992px) {
+    .one-phase-item:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
