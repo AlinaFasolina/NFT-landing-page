@@ -1,7 +1,7 @@
 import React from "react";
 import GradientButton from "../Buttons/GradientButton/GradientButton";
 import classes from "./Introduction.module.css";
-import bear from '../../Assets/Images/teddy-bear.png';
+import bear from '../../Assets/Images/teddy-bear.gif';
 
 const Introduction = () => {
   return (
@@ -22,7 +22,7 @@ const Introduction = () => {
         <GradientButton text="Whitelist"/>
       </div>
       <div className={classes["introduction__right"]}>
-       <img className={classes["introduction__img"] + " " + "bear__img"} alt="bear" src={bear}/>
+       <img className="bear__img" alt="bear" src={bear}/>
       </div>
     </div>
   );

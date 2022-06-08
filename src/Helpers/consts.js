@@ -46,3 +46,9 @@ export const firstPhaseInfoList = [
   "Revealed instantly and available to trade on Opensea",
   "Must be whitelisted!",
 ];
+
+export const secondPhaseInfoList = [
+  "Maximum of 5 per wallet",
+  "Revealed instantly and available to trade on Opensea",
+  "0.02ETH per TBAC",
+];

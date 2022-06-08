@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../../Header/Header";
+import Header from "../Header/Header";
 
-const HomePageLayout = (props) => {
+const Layout = (props) => {
   const { children, buttonText } = props;
   return (
     <div>
@@ -11,4 +11,4 @@ const HomePageLayout = (props) => {
   );
 };
 
-export default HomePageLayout;
+export default Layout;

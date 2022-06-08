@@ -52,10 +52,6 @@
         font-size: 20px;
         line-height: 1.4;
     }
-
-    .introduction__img {
-        width: 360px;
-    }
 }
 
 
@@ -67,11 +63,6 @@
     
     .introduction__title p:nth-child(3) {
         font-size: 40px;
-    }
-
-    .introduction__img {
-        display: block;
-        margin: auto;
     }
 }
 
@@ -86,10 +77,6 @@
 
     .introduction-wrapper {
         flex-direction: column;
-    }
-
-    .introduction__img {
-        margin: auto;
     }
 }
 
