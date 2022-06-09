@@ -25,6 +25,7 @@
 .navigation button { 
     position: relative;
     bottom: 11px;
+    border-bottom: 1px solid transparent;
 }
 
 .navigation li {
@@ -48,7 +49,8 @@
 }
 
 @media (max-width: 992px) {
-    .navigation a {
+    .navigation a,
+    .navigation button {
         font-size: 16px;
     }
 }
@@ -74,7 +76,8 @@
         position: static;
     }
 
-    .navigation a {
+    .navigation a,
+    .navigation button {
         font-size: 18px;
         padding: 12px 0;
     }
