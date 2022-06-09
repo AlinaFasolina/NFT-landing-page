@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import GradientButton from "../Buttons/GradientButton/GradientButton";
 import classes from "./Minting.module.css";
 
 const Minting = () => {
   const [limit, setLimit] = useState(3);
+  const [price, setPrice] = useState(0.06);
+
+  useEffect(()=> {
+    setPrice(limit*0.02);
+  },[limit])
 
   const handleLimit = (type) => {
     if (type === "plus") {
@@ -49,13 +54,13 @@ const Minting = () => {
       <p className={classes["minting-max"]}>Maximum of 5 per wallet</p>
       <div className={classes["minting-info"]}>
         <div className={classes["minting-info__item"]}>
-          <p className={classes["minting-info__item-top"]}>3 x 0.02 ETH</p>
+          <p className={classes["minting-info__item-top"]}>{limit} x 0.02 ETH</p>
           <p className={classes["minting-info__item-bottom"]}>
             Excluding Gas Fees
           </p>
         </div>
         <div className={classes["minting-info__item"]}>
-          <p className={classes["minting-info__item-top"]}>0.06 ETH</p>
+          <p className={classes["minting-info__item-top"]}>{price} ETH</p>
           <p className={classes["minting-info__item-bottom"]}>Price</p>
         </div>
       </div>
