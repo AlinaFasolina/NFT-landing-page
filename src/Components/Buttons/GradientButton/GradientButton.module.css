@@ -3,7 +3,7 @@
     font-weight: 700;
     font-size: 18px;
     border-radius: 8px;
-    padding: 20px 40px;
+    padding: 20px 30px;
     color: #fff;
     background: linear-gradient(85.63deg, #F827DE -9.39%, #2B14F9 114.93%);
     cursor: pointer;
@@ -21,11 +21,30 @@
     border: 1px solid #fff;
 }
 
+@media (max-width: 1200px) {
+    .gradient-btn {
+        font-size: 16px;
+        padding: 20px 30px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .gradient-btn {
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .gradient-btn {
+        font-size: 15px;
+        padding: 15px 10px;
+    }
+}
+
 @media (max-width: 768px) {
     .gradient-btn {
-        display: block;
-        margin: 0 auto 30px;
-        font-size: 16px;
-        padding: 20px 40px;
+        font-size: 14px;
+        padding: 15px 10px;
     }
 }

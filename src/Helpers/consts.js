@@ -1,8 +1,13 @@
+import bearOrange from "../Assets/Images/bear-orange.png";
+import bearRed from "../Assets/Images/bear-red.png";
+import bearWhite from "../Assets/Images/bear-white.png";
+import bearBlue from "../Assets/Images/bear-blue.png";
+
 export const releasePlanList = [
   [
     {
       number: 1,
-      text: "Launch V1 of the Website and start to build the community on twitter",
+      text: "Launch Website and start to build the community on twitter",
     },
     {
       number: 2,
@@ -26,17 +31,17 @@ export const releasePlanList = [
     },
     {
       number: 6,
-      text: "Publish V2 of website and launch discord server, initiate partner development program",
+      text: "Release 2500 TBAC for public mint at 0.04ETH ",
     },
   ],
   [
     {
       number: 7,
-      text: "Part 1 - Release 2500 TBAC for public mint at 0.04ETH",
+      text: "Release final 2500 TBAC for public mint at 0.06ETH",
     },
     {
       number: 8,
-      text: "Part 2 - Release final 2500 TBAC for public mint at 0.06ETH",
+      text: "Launch discord server, initiate TBAC Vision program",
     },
   ],
 ];
@@ -52,3 +57,34 @@ export const secondPhaseInfoList = [
   "Revealed instantly and available to trade on Opensea",
   "0.02ETH per TBAC",
 ];
+
+export const teamMembersList = [
+  {
+    imgSrc: bearOrange,
+    name: "Fred",
+    position: "Business & Operations",
+  },
+  {
+    imgSrc: bearRed,
+    name: "Lee",
+    position: "Tech & Blockchain",
+  },
+  {
+    imgSrc: bearWhite,
+    name: "Danny",
+    position: "Marketing & Outreach",
+  },
+  {
+    imgSrc: bearBlue,
+    name: "Daniel",
+    position: "Creative Artist",
+  },
+];
+
+
+
+
+
+
+
+

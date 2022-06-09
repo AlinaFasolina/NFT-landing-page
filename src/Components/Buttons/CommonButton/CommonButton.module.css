@@ -2,7 +2,6 @@
     font-family: 'Exo', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    text-transform: uppercase;
     border: 2px solid #fff;
     border-radius: 8px;
     padding: 20px 50px;
@@ -32,6 +31,14 @@
         padding: 15px 20px;
     }
 }
+
+@media (max-width: 900px) { 
+    .common-btn {
+        font-size: 15px;
+        padding: 15px 10px;
+    }
+}
+
 
 @media (max-width: 768px) {
     .common-btn {

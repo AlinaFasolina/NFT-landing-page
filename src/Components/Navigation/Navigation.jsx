@@ -8,16 +8,23 @@ const Navigation = () => {
   return (
     <ul className={classes.navigation}>
       <li>
-        <NavLink className={classes.active} to="#">Home</NavLink>
+        <NavLink className={classes.active} to="#">
+          Home
+        </NavLink>
       </li>
       <li>
         <ScrollToButton toId="release">Release Plan</ScrollToButton>
       </li>
       <li>
-        <a target="_blank" rel="noreferrer" href="https://sweepwidget.com/view/58332-zxe3vskq">Whitelist</a>
+        <ScrollToButton toId="vision">The Vision</ScrollToButton>
       </li>
       <li>
-      <a target="_blank" rel="noreferrer" href="https://twitter.com/tbacnft">Twitter</a>
+        <ScrollToButton toId="team">Team</ScrollToButton>
+      </li>
+      <li>
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/tbacnft">
+          Twitter
+        </a>
       </li>
     </ul>
   );
