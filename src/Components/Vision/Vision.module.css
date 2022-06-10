@@ -33,7 +33,7 @@
 }
 
 .vision-descrip__bottom {
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 
 .vision-descrip__text {
@@ -42,11 +42,15 @@
     color: #FFFFFF;
 }
 
-.vision-descrip__text:nth-child(1) {
+.vision-descrip__top .vision-descrip__text:nth-child(1) {
     margin-bottom: 40px;
 }
 
 @media (max-width: 1270px) {
+    .vision-descrip__bottom {
+        margin-bottom: 60px;
+    }
+
     .vision-bears div {
         width: calc((100% - 100px) / 3);
     }

@@ -3,13 +3,13 @@ import classes from "./Vision.module.css";
 import bearRed from "../../Assets/Images/bear-red-bordered.png";
 import bearWhite from "../../Assets/Images/bear-white-bordered.png";
 import bearBlue from "../../Assets/Images/bear-blue-bordered.png";
+import Goals from "../Goals/Goals";
+import Title from "../Title/Title";
 
 const Vision = () => {
   return (
     <div id="vision" className={classes["vision-wrapper"]}>
-      <h2 className={classes["vision-plan__title"]}>
-        Teddy Bear Ape Club Vision Program
-      </h2>
+      <Title text="Teddy Bear Ape Club Vision Program"/>
       <div className={classes["vision-bears"]}>
         <div>
           <img alt="bear red" src={bearRed} />
@@ -38,6 +38,7 @@ const Vision = () => {
           excellence that delivers all our goals as defined below
         </p>
       </div>
+      <Goals/>
       <div  className={classes["vision-descrip__bottom"]}>
         <p className={classes["vision-descrip__text"]}>
           We would be very greatful to conclude both of our goals, but this

@@ -1,0 +1,75 @@
+.connect-btn {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+    padding: 17px 37px;
+    color: #303030;
+    background: #FFFFFF;
+    cursor: pointer;
+    transition: 0.4s ease;
+    outline: none;
+    width: 230px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-btn:nth-child(1) { 
+    margin-right: 30px;
+}
+
+.connect-btn__text-top {
+    font-size: 30px;
+}
+
+.connect-btn__text-bottom {
+    font-size: 12px;
+    position: relative;
+    top: -6px;
+}
+
+.connect-btn:hover, 
+.connect-btn:focus {
+    color: #CC23E4;
+}
+
+.connect-btn__img {
+    margin-right: 10px;
+}
+
+@media (max-width: 1200px) { 
+    .connect-btn__text-top {
+        font-size: 22px;
+    }
+
+    .connect-btn {
+        padding: 17px 10px;
+    }
+}
+
+@media (max-width: 576px) { 
+    .connect-btn:nth-child(1) { 
+        margin-right: 0;
+    }
+
+    .connect-btn {
+        width: calc((100% - 40px) / 2);
+        font-size: 20px;
+    }
+
+    .connect-btn__img {
+        width: 30px;
+    }
+}
+
+@media (max-width: 400px) { 
+    .connect-btn {
+        font-size: 18px;
+    }
+
+    .connect-btn__img {
+        width: 25px;
+    }
+}

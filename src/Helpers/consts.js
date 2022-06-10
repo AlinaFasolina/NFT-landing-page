@@ -81,9 +81,24 @@ export const teamMembersList = [
   },
 ];
 
-
-
-
+export const goalsList = [
+  {
+    title: "GOAL 1: Initial Collection Sellout",
+    goals: [
+      "On completion of our sellout the TBAC team plan on commissioning a IRL Teddy Bear Ape (Target 10,000 Teddies)",
+      "Ability for community to own and donate the Teddies to organisations / communities of their choice",
+      "Start to build out community Interaction Program",
+    ],
+  },
+  {
+    title: "GOAL 2: Community Interaction Program",
+    goals: [
+      "Introduction of Dust Donation Platform - All Proceeds are donated to Childrens Organisations and or Communities as voted by the community",
+      "Launch of Merch Platform - Buy one “Donate one Free”",
+      "Expand the community and Launch new collections to strengthen the brand",
+    ],
+  },
+];
 
 
 

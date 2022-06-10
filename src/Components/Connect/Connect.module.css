@@ -1,0 +1,35 @@
+.connect-wrapper {
+    max-width: 1270px;
+    padding: 0 20px;
+    margin: auto;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connect__butons {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.connect__email {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    text-decoration: none;
+    transition: .4s ease;
+}
+
+.connect__email:hover {
+    color: #CC23E4;
+}
+
+@media (max-width: 576px) { 
+    .connect__butons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+

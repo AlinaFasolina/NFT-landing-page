@@ -1,4 +1,6 @@
 import React from "react";
+import Connect from "../../Components/Connect/Connect";
+import Footer from "../../Components/Footer/Footer";
 import Introduction from "../../Components/Introduction/Introduction";
 import Layout from "../../Components/Layout/Layout";
 import ReleasePlan from "../../Components/ReleasePlan/ReleasePlan";
@@ -12,6 +14,8 @@ const Home = () => {
       <ReleasePlan />
       <Vision />
       <Team />
+      <Connect />
+      <Footer />
     </Layout>
   );
 };
