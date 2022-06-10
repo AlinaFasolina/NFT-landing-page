@@ -48,12 +48,23 @@
     .one-phase-wrapper {
         max-width: 100%;
     }
+    
+    .one-phase-wrapper button {
+        width: 50%;
+        margin: auto;
+        display: block;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 576px) {
     .one-phase-title {
         font-size: 30px;
         line-height: 45px;
+    }
+
+    .one-phase-wrapper button {
+        width: 100%;
     }
 }
 
