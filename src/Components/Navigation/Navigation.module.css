@@ -4,8 +4,7 @@
     padding-left: 0;
 }
 
-.navigation a,
-.navigation button {
+.navigation a {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
@@ -22,19 +21,12 @@
     outline: none;
 }
 
-.navigation button { 
-    position: relative;
-    bottom: 11px;
-    border-bottom: 1px solid transparent;
-}
-
 .navigation li {
     padding: 0 22px;
 }
 
 .navigation a.active,
-.navigation a:hover,
-.navigation button:hover{
+.navigation a:hover {
     color: #CC23E4;
     border-bottom: 4px solid;
     border-image-slice: 1;
@@ -49,8 +41,7 @@
 }
 
 @media (max-width: 992px) {
-    .navigation a,
-    .navigation button {
+    .navigation a {
         font-size: 16px;
     }
 }
@@ -73,18 +64,11 @@
     }
 
     .navigation a.active,
-    .navigation a:hover,
-    .navigation button,
-    .navigation button:hover {
+    .navigation a:hover {
         border: none;
     }
 
-    .navigation button { 
-        position: static;
-    }
-
-    .navigation a,
-    .navigation button {
+    .navigation a {
         font-size: 18px;
         padding: 12px 0;
     }

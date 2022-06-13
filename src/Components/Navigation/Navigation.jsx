@@ -1,31 +1,24 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import ScrollToButton from "../ScrollToButton/ScrollToButton";
-
+import { HashLink as Link } from 'react-router-hash-link';
 import classes from "./Navigation.module.css";
 
 const Navigation = ({ closeHamburger }) => {
   return (
     <ul className={classes.navigation}>
       <li>
-        <NavLink className={classes.active} to="#">
+        <NavLink className={classes.active} to="/">
           Home
         </NavLink>
       </li>
       <li>
-        <ScrollToButton closeHamburger={closeHamburger} toId="release">
-          Release Plan
-        </ScrollToButton>
+        <Link onClick={closeHamburger} smooth to="/#release">Release Plan</Link>
       </li>
       <li>
-        <ScrollToButton closeHamburger={closeHamburger} toId="vision">
-          The Vision
-        </ScrollToButton>
+        <Link onClick={closeHamburger} smooth to="/#vision">The Vision</Link>
       </li>
       <li>
-        <ScrollToButton closeHamburger={closeHamburger} toId="team">
-          Team
-        </ScrollToButton>
+        <Link onClick={closeHamburger} smooth to="/#team">Team</Link>
       </li>
       <li onClick={closeHamburger}>
         <a target="_blank" rel="noreferrer" href="https://twitter.com/tbacnft">
