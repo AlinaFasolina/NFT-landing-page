@@ -3,7 +3,8 @@ body {
 }
 
 .main {
-  background: #232524;
+  background: url("./Assets/Images/main-bg.png");
+  background-size: cover;
   padding: 60px 0 45px;
   min-height: 100vh;
   position: relative;
