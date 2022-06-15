@@ -99,7 +99,3 @@ export const goalsList = [
     ],
   },
 ];
-
-
-
-
