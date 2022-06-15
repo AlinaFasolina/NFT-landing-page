@@ -60,16 +60,6 @@ export const secondPhaseInfoList = [
 
 export const teamMembersList = [
   {
-    imgSrc: bearOrange,
-    name: "Fred",
-    position: "Business & Operations",
-  },
-  {
-    imgSrc: bearRed,
-    name: "Lee",
-    position: "Tech & Blockchain",
-  },
-  {
     imgSrc: bearWhite,
     name: "Danny",
     position: "Marketing & Outreach",
@@ -78,6 +68,16 @@ export const teamMembersList = [
     imgSrc: bearBlue,
     name: "Daniel",
     position: "Creative Artist",
+  },
+  {
+    imgSrc: bearOrange,
+    name: "Fred",
+    position: "Business & Operations",
+  },
+  {
+    imgSrc: bearRed,
+    name: "Lee",
+    position: "Tech & Blockchain",
   },
 ];
 

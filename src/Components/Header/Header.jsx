@@ -31,7 +31,7 @@ const Header = ({buttonText}) => {
         </div>
       </div>
       <div className={classes["header-right"]}>
-        <CommonButton text={buttonText} />
+        <CommonButton link="https://sweepwidget.com/view/58332-zxe3vskq" text={buttonText} />
       </div>
     </div>
   );

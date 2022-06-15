@@ -1,9 +1,10 @@
 import React from "react";
 import classes from "./CommonButton.module.css";
+import {goToOuterLink} from "../../../Helpers/utils"
 
-const CommonButton = ({text}) => {
+const CommonButton = ({text, link}) => {
   return (
-    <button className={classes["common-btn"]}>
+    <button onClick={()=>goToOuterLink(link)} className={classes["common-btn"]}>
       {text}
     </button>
   );

@@ -22,7 +22,7 @@ const Introduction = () => {
         </p>
         <div className={classes["introduction__buttons"]}>
           <GradientButton text="Mint your TBAC" />
-          <CommonButton text="Whitelist Now!" />
+          <CommonButton link="https://sweepwidget.com/view/58332-zxe3vskq" text="Whitelist Now!" />
         </div>
       </div>
       <div className={classes["introduction__right"]}>
